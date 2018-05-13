@@ -8,7 +8,6 @@ def my_each(love)
   end
   love
 else
- my_each(love) do |i|
-   i
+"no"
 end
 end
