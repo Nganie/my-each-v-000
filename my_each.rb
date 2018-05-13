@@ -6,7 +6,7 @@ def my_each(love)
     yield love[indigo]
     indigo = love + 1
   end
-  
+
   my_each(love)
 end
 end
