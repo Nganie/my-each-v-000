@@ -1,6 +1,6 @@
 def my_each(love)
   if block_given?
-  indigo = 2
+  indigo = 0
 
   while indigo < love.length
     yield love[indigo]
