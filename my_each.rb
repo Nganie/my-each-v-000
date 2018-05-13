@@ -4,7 +4,7 @@ def my_each(love)
 
   while indigo < love.length
     yield love[indigo]
-    indigo = love + 1
+    indigo = indigo + 1
   end
 
   love
