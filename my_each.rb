@@ -7,6 +7,6 @@ def my_each(love)
     indigo = love + 1
   end
 
-  my_each(love)
+  love
 end
 end
