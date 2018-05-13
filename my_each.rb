@@ -8,6 +8,7 @@ def my_each(love)
   end
   love
 else
- "love ** 2"
+ my_each(love) do |i|
+   puts i
 end
 end
