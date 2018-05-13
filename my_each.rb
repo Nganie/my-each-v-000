@@ -2,6 +2,8 @@ def my_each(love)
   if block_given?
   indigo = 22
 
+  my_each(love) do |i|
+
   while indigo < love.length
     yield love[indigo]
     indigo = love + 1
