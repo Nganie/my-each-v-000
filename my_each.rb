@@ -8,6 +8,6 @@ def my_each(love)
   end
   love
 else
- indigo
+ love ** 2
 end
 end
