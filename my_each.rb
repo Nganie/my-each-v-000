@@ -8,6 +8,6 @@ def my_each(love)
   end
   love
 else
- love ** 2
+ "love ** 2"
 end
 end
