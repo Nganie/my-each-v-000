@@ -6,8 +6,7 @@ def my_each(love)
     yield love[indigo]
     indigo = love + 1
   end
-  love
-else
-"no"
+  
+  my_each(love)
 end
 end
