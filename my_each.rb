@@ -9,6 +9,6 @@ def my_each(love)
   love
 else
  my_each(love) do |i|
-   puts i
+   i
 end
 end
